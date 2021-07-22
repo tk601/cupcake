@@ -1,0 +1,1256 @@
+/* common */
+body{
+    margin: 0;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+@font-face {
+    font-family: 'capital';
+    src: url('../fonts/Capitals Regular.ttf') format('truetype');
+}
+
+/* .wp-block-image img{
+    height:auto;
+} */
+#menu{
+    font-family: 'capital';
+}
+#menu span{
+}
+#news{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.news-01{
+    text-align: center;
+    color: #F47A86;
+    height: 100%;
+    margin: auto 40px;
+}
+.news-01 p:nth-child(1){
+    font-size: 5vw;
+    margin-bottom: 0;
+    font-family: 'capital';
+    letter-spacing: 0.1em;
+}
+.news-01 p:nth-child(2){
+    font-size: 1vw;
+}
+.news-02{
+}
+.news-02 p{
+    border-bottom: dotted 3px gray;
+    font-size: 2vw;
+    padding: 10px 70px 10px 0;
+    margin: 0;
+}
+section{
+    padding: 50px 0;
+    text-align: center;
+}
+.section-margin{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.section-header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.section-title{
+    margin-bottom: 50px;
+}
+.section-title img{
+    width: 300px;
+    height: auto;
+}
+.attention{
+    width: 20%;
+    position: absolute;
+    right: 10%;
+}
+.attention img{
+    width: 40%;
+}
+.cupcake-groups{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 0 5%;
+}
+.cupcake-group{
+    text-align: center;
+    flex-basis: 20%;
+}
+.inner{
+    padding: 7%;
+}
+.inner div{
+    margin-bottom: 6%;
+}
+.cupcake-img img{
+    width: 100%;
+    height: auto;
+}
+.cupcake-name{
+    color: #808080;
+    font-family: 'Carter One', cursive;
+}
+.cupcake-name-kana{
+    color: #F47A86;
+}
+.cupcake-price{
+    color: #82CEE6;
+    font-family: 'Carter One', cursive;
+}
+.more-btn {
+    margin: 20px 0;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.more-btn img{
+    width: 50px;
+}
+/* common */
+
+/* seasonable */
+#seasonable{
+    background-color: #CDF9FC;
+}
+.season{
+    padding: 10px;
+    text-align: left;
+    color: #FFF;
+    margin-bottom: 25px;
+}
+.season img{
+    vertical-align: middle;
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+    padding-bottom: 3px;
+}
+.season span{
+    font-family: 'Carter One', cursive;
+}
+/* birthday */
+#birthday, #celebration, #original{
+    background-image: url("../img/birthday_bg.png");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 5px;
+}
+#birthday{
+    padding-top: 50px;
+}
+#birthday-groups{
+    display: flex;
+}
+#birthday-groups img{
+    width: 100%;
+    height: auto;
+}
+#birthday-01{
+    flex-basis: 40%;
+    display: flex;
+    flex-flow: column;
+    margin-top: -18%;
+}
+#birthday-011{
+    margin-bottom: -15%;
+    z-index: 1;
+}
+#birthday-012{
+    position: relative;
+}
+#birthday-0121{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: #FFF;
+    width: 100%;
+    font-size: 1.6vw;
+}
+#birthday-02{
+    flex-basis: 60%;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+#birthday-0211{
+    display: flex;
+    margin-left: -10%;
+}
+#birthday-0211 img{
+    width: 50%;
+    height: 50%;
+    z-index:1;
+}
+#option{
+    position: relative;
+}
+#option img{
+    width: 110%;
+    height: 110%;
+    margin-left: -20%;
+}
+#birthday-0212{
+    color: #F47A86;
+    text-align: left;
+    font-size: 2.6vw;
+    position: absolute;
+    transform: translate(0% ,-100%);
+}
+#birthday-0212 p:nth-child(1){
+    font-size: 1.6vw;
+    margin-bottom: -5%;
+}
+@font-face {
+    font-family: 'PersonalUseOnly';
+    src: url('../fonts/Lakesight_PersonalUseOnly.ttf') format('truetype');
+}
+#birthday-0212 span{
+    font-family: 'PersonalUseOnly';
+    font-size: 3.6vw;
+}
+#font1{
+    margin-bottom: -5%;
+}
+#font2{
+    font-size: 1.6vw;
+}
+#birthday-022{
+    padding-left: 30px;
+    margin-top: 10%;
+    position: relative;
+}
+#birthday-022 p{
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50% ,-30%);
+    width: 80%;
+    font-size: 1.6vw;
+}
+
+/* celebration */
+#celebration{
+    padding-top: 50px;
+}
+#celebration-groups{
+    display: flex;
+}
+#celebration-groups img{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#celebration-01{
+    margin-top: -10%;
+    flex-basis: 50%;
+}
+#celebration-01 img{
+    display: block;
+    width: 170%;
+    margin-left: -30%;
+}
+#celebration-02{
+    flex-basis: 90%;
+}
+#celebration-021{
+    display: flex;
+}
+#celebration-021 img{
+    display: block;
+    width: 29%;
+    margin-right: 20px;
+}
+#celebration-022 p{
+    text-align: left;
+    margin-bottom: 3%;
+}
+#celebration-hide{
+    display: none;
+}
+#original{
+    padding-bottom: 50px;
+}
+#original-img{
+    display: flex;
+    margin-top: -6%;
+}
+#original-top{
+    display: flex;
+    flex-basis: 60%;
+}
+#original-bottom{
+    display: flex;
+    flex-basis: 40%;
+}
+#original-top img{
+    flex-basis: 33.333%;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+#original-bottom img{
+    flex-basis: 50%;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+#original-order{
+    display: flex;
+}
+#order-01{
+    width: 50%;
+    margin-right: 10;
+}
+#order-01 img{
+    width: 80%;
+    padding-left: 5%;
+}
+#order-011{
+    display: flex;
+    margin-top: -45%;
+}
+#order-011 img{
+    margin-top: -13%;
+    margin-left: -10%;
+    width: 40%;
+}
+#order-011 p{
+    line-height: 2.8vw;;
+    width: 60%;
+    text-align: left;
+    font-size: 1.5vw;
+    margin-left: -7%;
+    padding-right: 5%;
+}
+.order-btn{
+    width: 55%;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+.order-btn a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 3% 0;
+    text-align: center;
+}
+#order-02 a:nth-child(1){
+    background-color: #fc7689;
+}
+#order-02 a:nth-child(2){
+    background-color: #75a9ff;
+}
+
+/*whole cake*/
+#semi-order{
+    margin-top: 50px;
+}
+#wholecake{
+    background-color: #f0fff0;
+}
+.wholecake-01{
+    text-align: left;
+    display: flex;
+    font-size: 1.7vw;
+    line-height: 2.5vw;
+    padding: 0 1%;
+    margin-bottom: -5%;
+}
+.wholecake-011{
+    flex-basis: 60%;
+}
+#span-color{
+    color: #f45486;
+}
+.wholecake-0111{
+    display: flex;
+    width: 100%;
+}
+.ro-ma{
+    font-family: 'PersonalUseOnly';
+    font-size: 6vw;
+    color: #66cccc;
+    margin-right: 10px;
+}
+.wholecake-attention img{
+    margin-left: -120%;
+    margin-top: -50px;
+}
+#wholecake-012{
+    flex-basis: 40%;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    color: white;
+}
+#wholecake-012 img:nth-child(1){
+    width: 100%;
+}
+#wholecake-012 img:nth-child(2){
+    display: none;
+}
+#wholecake-012 p{
+    margin-top: -35%;
+    margin-left: 15%;
+    width: 80%;
+}
+.wholecake-02{
+    display: flex;
+    width: 90%;
+}
+.wholecake-02 a{
+    margin-right: 3%;
+    width: 40%;
+    padding: 1.5%;
+}
+.wholecake-02 a:nth-child(1){
+    background-color: #66cccc;
+}
+.wholecake-02 a:nth-child(2){
+    background-color: #75a9ff;
+}
+.season-full-btn{
+    margin-left: 10px;
+}
+.cupcake-group-01{
+    text-align: center;
+    flex-basis: 25%;
+}
+.order-number{
+    width: 60%;
+    margin-top: -40%;
+    margin-left: 55%;
+}
+.order-number img{
+    width: 60%;
+}
+.order-number p{
+    color: white;
+    margin-top: -47%;
+    font-size: 3vw;
+}
+#S11-font{
+    background-color: #f45486;
+    color: white;
+    width: 90%;
+    margin-top: 40%;
+    margin-left: -100%;
+    position: relative;
+    z-index: 0;
+}
+#S11-font p{
+    font-size: 1vw;
+}
+#ninki img{
+    width: 70%;
+    margin-bottom: 30%;
+}
+#S12-margin{
+    margin-bottom: -67%;
+}
+.flex-01{
+    display: block;
+}
+#season-wholecake{
+    margin-top: 70px;
+}
+#season-wholecake-a{
+}
+.season-wholecake-b p{
+    width: 100%;
+}
+#season-wholecake-attention img{
+    margin-left: 50%;
+}
+/*full-order*/
+#full-order{
+    display: flex;
+    margin-top: 70px;
+}
+#full-order-01{
+    flex-basis: 50%;
+}
+.color-pink{
+    color: #f47a86;
+}
+#full-order11{
+    display: block;
+    width: 180%;
+}
+#full-order11 a:nth-child(1){
+    background-color: #f47a86;
+}
+#full-order-attention img{
+    margin-left: -150%;
+}
+#full-order-02{
+    flex-basis: 50%;
+}
+#full-order-02 img{
+    width: 100%;
+    border-radius: 40px;
+}
+/*sample*/
+#sample{
+    margin-top: 70px;
+}
+#sample-attention img{
+    margin-left: -150%;
+}
+.sample-capcake-group{
+    margin-top: 50px;
+    flex-basis: 25%;
+}
+
+/*frozen-cake*/
+#frozen-cake{
+    background-color: #f6faff;
+    padding: 50px 10px;
+}
+#frozen-cake-01{
+    display: flex;
+}
+#frozen-cake-011{
+    flex-basis: 50%;
+}
+#frozen-cake-011 p{
+    text-align: left;
+    font-size: 1.7vw;
+    line-height: 2.5vw;
+}
+#frozen-cake-0111 p:nth-child(1){
+    color: #a64b88;
+}
+#frozen-cake-0111 p:nth-child(2){
+    background-color: #96a2ff;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#frozen-cake-012{
+    flex-basis: 50%
+}
+#frozen-cake-012 img{
+    width: 90%;
+}
+#frozen-cake-02 p{
+    text-align: right;
+    margin-right: 5%;
+    color: #a64b88;
+}
+#frozen-cake-03{
+    display: flex;
+}
+#frozen-cake-03 p{
+    color: #a64b88;
+}
+#frozen-cake-031{
+    flex-basis: 50%;
+}
+#frozen-cake-031 img{
+    width: 40%;
+}
+#frozen-cake-031 p{
+    text-align: left;
+}
+#frozen-cake-032{
+    flex-basis: 50%;
+    margin-top: 10%;
+    width: 100%;
+}
+#frozen-cake-032 a{
+    display: block;
+    color: white;
+    background-color: #96a2ff;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#frozen-cake-032 p{
+    text-align: left;
+}
+
+/*howto-order*/
+#howto-order{
+    text-align: left;
+    padding:50px 10px;
+    font-size: 1.7vw;
+}
+#howto-order span{
+    color: #f47a86;
+}
+#howto-order-01{
+    position: relative;
+}
+#howto-order-11 img{
+    width: 35%;
+    margin-left: -4%;
+}
+#howto-order-12{
+    display: flex;
+}
+#howto-order-12 p{
+}
+#howto-order-12 img{
+    width: 20%;
+    position: absolute;
+    transform: translate(400% ,-30%);
+}
+#howto-order-02{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.howto-order-21{
+    flex-basis: 25%;
+    text-align: center;
+    position: relative;
+}
+.howto-order-21 img{
+    width: 20%;
+    position: absolute;
+    transform: translate(110% ,-240%);
+}
+.howto-order-211{
+    background-color: #8bdcdc;
+    width: 90%;
+    border-radius: 15px;
+    padding: 6% 0;
+}
+#red{
+    background-color: #f47a86;
+}
+#blue{
+    background-color: #96a2ff;
+}
+.howto-order-211 a{
+    font-size: 1.5vw;
+    line-height: 1vw;
+    text-decoration: none;
+    color: white;
+}
+#howto-order-24{
+    transform: translate(0% ,-160%);
+    text-align: left;
+    width: 20%;
+}
+#howto-order-24 img{
+    display: block;
+    width: 100%;
+    transform: translate(0% ,0%);
+}
+#lightbox .lb-container{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#howto-order-03{
+    display: flex;
+}
+#howto-order-32{
+    text-align: center;
+    width: 40%;
+    background-color: #f6faff;
+    padding: 2%;
+    padding-top: 2%;
+    margin: 2%;
+    margin-left: 4%;
+}
+#howto-order-32 p:nth-child(1){
+    font-size: 3vw;
+    margin: 0;
+}
+#howto-order-32 p:nth-child(2){
+    margin: 0;
+}
+#howto-order-04{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#howto-order-04 p{
+    flex-basis: 50%;
+}
+#howto-order-041{
+    flex-basis: 50%;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 3%;
+}
+#howto-order-041 a{
+    background-color: #f47a86;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 3% 12%;
+}
+
+/*img1-10*/
+#img1-10{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 40px 1%;
+}
+.img-01{
+    flex-basis: 20%;
+}
+.img-01 img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/*what-cupcake*/
+#what-cupcake{
+    padding: 10px;
+    margin-top: 70px;
+}
+#what-cupcake-01{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#what-cupcake-11{
+    flex-basis: 50%;
+    text-align: left;
+    font-size: 1.5vw;
+    margin-top: -7%;
+}
+#what-cupcake-111 img{
+    width: 80%;
+}
+#what-cupcake-111 p{
+    color: #f47a86;
+}
+#what-cupcake-12-hide-pc{
+    display: none;
+}
+#what-cupcake-112 p:nth-child(1){
+    color: #8bdcdc;
+    font-size: 3vw;
+    margin-bottom: 0;
+    font-family: 'capital';
+    letter-spacing: 0.1em;
+}
+#what-cupcake-12{
+    flex-basis: 50%;
+    padding: 0 5%;
+}
+#what-cupcake-12 img{
+    width: 100%;
+}
+/*map*/
+#map{
+    display: flex;
+}
+.map-01{
+    flex-basis: 50%;
+}
+.map-01 p{
+    background-color: #f47a86;
+    color: white;
+    width: 30%;
+    padding: 1% 0;
+    margin-left: 2%;
+}
+.map-01 iframe{
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    #news{
+        display: block;
+    }
+    .news-01 p:nth-child(1){
+        font-size: 8vw;
+    }
+    .news-01 p:nth-child(2){
+        font-size: 2vw;
+    }
+    .news-02{
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .news-02 p{
+        font-size: 3vw;
+        padding-right: 0;
+    }
+    .cupcake-group{
+        flex-basis: 33.3%;
+    }
+    .section-title img{
+        width: 60%;
+    }
+    .attention{
+        margin-right: -10%;
+    }
+    .attention img{
+        display: block;
+        margin-bottom: 5%;
+        width: 50%;
+    }
+    .inner{
+        font-size: 3vw;
+    }
+    /*birthday*/
+    #birthday{
+        padding-top: 40px;
+    }
+    #birthday-groups{
+        flex-flow: column;
+    }
+    #birthday-01{
+        flex-flow: row;
+        padding-top: 20%;
+        margin-left: -10%;
+    }
+    #birthday-01 div:nth-child(1){
+        flex-basis: 70%;
+    }
+    #birthday-01 div:nth-child(2){
+        flex-basis: 30%;
+        margin-left: -6%;
+    }
+    #birthday-012 img{
+        height: 60%;
+        width: 180%;
+        position: absolute;
+        transform: translate(-60% ,-15%);
+    }
+    #birthday-0121{
+        width: 130%;
+        position: absolute;
+        transform: translate(-55% ,-110%);
+    }
+    #birthday-0121 h3{
+        font-size: 3vw;
+    }
+    #birthday-0121 p{
+        font-size: 3vw;
+        margin-bottom: -8px;
+    }
+    #birthday-0121 span{
+        display: block;
+    }
+    #br_none{
+        display: none;
+    }
+    #option img{
+        height: 125%;
+    }
+    #birthday-0212{
+        width: 80%;
+    }
+    #birthday-0212 p{
+        font-size: 3vw;
+        margin-left: 5%;
+    }
+    #birthday-0212 span{
+        font-size: 6vw;
+        margin-bottom: 1%;
+    }
+    #font1{
+        margin-bottom: 3%;
+    }
+    #font2{
+        font-size: 3vw;
+    }
+    #birthday-022 {
+        padding-left: 0px;
+        margin-top: 130px;
+    }
+    #birthday-022 p{
+
+        font-size: 2.5vw;
+        margin-left: 0%;
+    }
+    /*celebration*/
+    #celebration{
+        padding-top: 30px;
+    }
+    #celebration-01 img{
+        margin-left: -60%;
+        width: 250%;
+    }
+    #celebration-02{
+        flex-basis: 50%;
+    }
+    #celebration-021{
+        flex-flow: column;
+    }
+    #celebration-021 img{
+        margin-bottom: 3%;
+        margin-left: 20px;
+        width: 73%;
+    }
+    #celebration-022{
+        width: 180%;
+        margin-left: -90%;
+    }
+    #celebration-023{
+        display: none;
+    }
+    #celebration-hide{
+        display: block;
+        width: 100%;
+    }
+    /*original*/
+    #original{
+        padding-top: 30px;
+    }
+    #original-img{
+        display: block;
+    }
+    #original-bottom{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: -7%;
+    }
+    #original-order{
+        display: block;
+    }
+    #order-01{
+        width: 100%;
+    }
+    #order-011 p{
+        font-size: 3.5vw;
+        line-height: 5vw;
+        margin-top: 7%;
+    }
+    #order-02{
+        width: 90%;
+        margin: 10% auto;
+    }
+    /*wholecake*/
+    #wholecake{
+        padding: 2%;
+    }
+    .wholecake-01{
+        display: block;
+    }
+    .ro-ma{
+        font-size: 300%;
+    }
+    .kana{
+        display: block;
+        margin-top: 5%;
+        font-weight: bold;
+    }
+    .wholecake-011 p{
+        line-height: 120%;
+        font-size: 3vw;
+    }
+    #wholecake-012 img:nth-child(1){
+        display: none;
+    }
+    #wholecake-012 img:nth-child(2){
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #wholecake-012 p{
+        margin-top: -27%;
+        width: 70%;
+        line-height: 170%;
+        font-size: 3vw;
+    }
+    .wholecake-attention{
+        margin-top: 20px;
+    }
+    .wholecake-02{
+        display: block;
+        margin: 0 auto;
+        padding-top: 10%;
+    }
+    .wholecake-02 a{
+        width: 100%;
+        display: block;
+        padding: 3% 0;
+    }
+    .cupcake-group-01{
+        flex-basis: 50%;
+    }
+    .order-number p{
+        font-size: 6vw;
+    }
+    #S11-font{
+        width: 90%;
+    }
+    #S11-font p{
+        font-size: 3vw;
+        margin-top: -60%;
+    }
+    .season-wholecake-b p{
+        width: 100%;
+    }
+    #season-wholecake-attention img{
+        margin-left: 10%;
+    }
+    /*full-order*/
+    #full-order{
+        display: block;
+    }
+    #full-order11{
+        width: 90%;
+    }
+    /*sample*/
+    #sample-attention img{
+        margin-left: -200%;
+    }
+    .sample-capcake-group{
+        flex-basis: 33.333%;
+    }
+    /*frozen-cake*/
+    #frozen-cake-01{
+        display: block;
+    }
+    #frozen-cake-011 p{
+        font-size: 3vw;
+        line-height: 4.5vw;
+    }
+
+    #frozen-cake-011 p:nth-child(2){
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        text-align: center;
+        width: 15%;
+        height: 20%;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+    #frozen-cake-0111{
+        display: flex;
+    }
+    #frozen-cake-0111 span{
+        display: block;
+    }
+    #frozen-cake-012 img{
+        width: 100%;
+        margin: 20px 0;
+        padding: 0;
+    }
+    #frozen-cake-03{
+        display: block;
+    }
+    #frozen-cake-031 p{
+        text-align: center;
+    }
+    #frozen-cake-032 a{
+        font-size: 3vw;
+        margin: 0 10%;
+    }
+
+    /*howto-order*/
+    #howto-order{
+        font-size: 3vw;
+    }
+    #howto-order-11 img{
+        width: 70%;
+    }
+    #howto-order-12 img{
+        transform: translate(260% ,-90%);
+        width: 27%;
+    }
+    .howto-order-21{
+        flex-basis: 50%;
+    }
+    .howto-order-21 img{
+        transform: translate(120% ,-250%);
+    }
+    .howto-order-211{
+        margin-bottom: 5%;
+        margin-left: 2%;
+    }
+    .howto-order-211 a{
+        font-size: 2.7vw;
+        line-height: 4vw;
+    }
+    #howto-order-24{
+        transform: translate(10% ,-200%);
+        flex-basis: 45%;
+    }
+    #howto-order-24 P{
+        margin-bottom: 0;
+    }
+    #howto-order-24 img{
+        width: 80%;
+    }
+    #howto-order-03{
+        display: block;
+    }
+    #howto-order-31{
+        width: 60%;
+    }
+    #howto-order-32{
+        width: 90%;
+        margin: 10% auto;
+    }
+    #howto-order-32 p:nth-child(1){
+        font-size: 5vw;
+    }
+    #howto-order-04{
+        display: block;
+    }
+    #howto-order-04 p{
+        width: 76%;
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+    /*img1-10*/
+    .img-01{
+        flex-basis: 33.33333333%;
+    }
+    #img-09-hide{
+        display: none;
+    }
+    /*what-capcake*/
+    #what-cupcake-01{
+        display: block;
+    }
+    #what-cupcake-11{
+        font-size: 3vw;
+    }
+    #what-cupcake-111 img{
+        width: 50%;
+    }
+    #what-cupcake-12-hide-pc{
+        display: block;
+    }
+    #what-cupcake-12-hide-pc img{
+        width: 100%;
+    }
+    #what-cupcake-112 p:nth-child(1){
+        font-size: 5vw;
+    }
+    #what-cupcake-12{
+        display: none;
+    }
+    /*map*/
+    #map{
+        display: block;
+    }
+    .map-01 p{
+        margin-bottom: -3%;
+        position: relative;
+        z-index: 1;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width:1101px) {
+    .news-01 p:nth-child(1){
+        font-size: 55px;
+    }
+    .news-01 p:nth-child(2){
+        font-size: 10px;
+    }
+    .news-02 p{
+        font-size: 26px;
+    }
+    /*birthday*/
+    #birthday-012 img{
+        height: 200px;
+    }
+    #birthday-0121{
+        font-size: 20px;
+    }
+    #birthday-0212 p:nth-child(1){
+        font-size: 18px;
+    }
+    #birthday-0212 span{
+        font-size: 40px;
+    }
+    #font1{
+        font-size: 26px;
+    }
+    #font2{
+        font-size: 20px;
+    }
+    #birthday-022 p{
+        font-size: 17px;
+    }
+    #order-011 p{
+        font-size: 17px;
+        line-height: 30px;
+    }
+    #order-01{
+        margin: 0 auto;
+    }
+
+    /*wholecake*/
+    .wholecake-011 p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ro-ma{
+        font-size: 60px;
+    }
+    .wholecake-attention img{
+        width: 90px;
+    }
+    #wholecake-012{
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .wholecake-02 a{
+        padding: 16px;
+    }
+    .order-number p{
+        font-size: 27px;
+    }
+    #season-wholecake-attention img{
+        margin-left: 30%;
+    }
+    #S11-font p{
+        font-size: 5px;
+    }
+    /*frozen-cake*/
+    #frozen-cake-011 p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    /*howto-order*/
+    #howto-order{
+        font-size: 20px;
+    }
+    .howto-order-211 a{
+        font-size: 20px;
+    }
+    #howto-order-32 p:nth-child(1){
+        font-size: 35px;
+    }
+    #howto-order-041{
+        font-size: 35px;
+    }
+    /*what-capcake*/
+    #what-cupcake-11{
+        font-size: 18px;
+    }
+    #what-cupcake-111 img{
+        width: 350px;
+        margin-top: 20px;
+    }
+    #what-cupcake-112 p:nth-child(1){
+        font-size: 30px;
+    }
+}
+
+
+
+/* .cupcake-name{
+    color: #808080;
+}
+.cupcake-name-kana{
+    color: #F47A86;
+}
+.cupcake-price{
+    color: #82CEE6;
+} */
